@@ -1,0 +1,7 @@
+[WARN] 2021-10-01 14:04:33,299 Java sorter app logger exceptionLog User did not enter an int
+[WARN] 2021-10-01 14:08:10,210 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: For input string: "hh"
+[WARN] 2021-10-01 14:14:01,907 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: For input string: "hh"
+[WARN] 2021-10-01 14:35:55,810 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: [490, 698, 739, 664, 36, 218]
+[WARN] 2021-10-01 14:57:53,239 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: [365, 268, 680, 355, 34]
+[WARN] 2021-10-01 14:58:06,182 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: [220, 478, 291, 322, 500, 193]
+[WARN] 2021-10-01 14:59:00,279 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: [605, 839, 681, 469, 168]
