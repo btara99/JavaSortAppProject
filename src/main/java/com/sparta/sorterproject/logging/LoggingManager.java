@@ -10,13 +10,13 @@ public class LoggingManager {
         PropertyConfigurator.configure("log4j.properties");
         logger.warn(" User did not enter an int: USER INPUT: " + n);
     }
-    public static void arrayLog(String n){
+    public static void arrayLog(String arr){
         PropertyConfigurator.configure("log4j.properties");
-        logger.trace("user created an array " + n);
+        logger.warn("user created an array " + arr);
     }
     public static void timeLog(double time){
         PropertyConfigurator.configure("log4j.properties");
-        logger.trace("time taken for sort " + time + " seconds");
+        logger.warn("time taken for sort " + time + " seconds");
     }
 
 }

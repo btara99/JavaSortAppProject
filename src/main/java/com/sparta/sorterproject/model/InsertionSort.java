@@ -2,11 +2,12 @@ package com.sparta.sorterproject.model;
 
 import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.controller.SortManager;
+import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
 public class InsertionSort implements SortManager {
-
+    LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
 
     public static String insertionSort(int[] arr) {
@@ -28,8 +29,9 @@ public class InsertionSort implements SortManager {
         //DISPLAY SORTED ARRAY
         double startTime = System.nanoTime();
         System.out.println("The sorted array using Insertion sort: " + insertionSort(displayData.displayArray()));
-        double elapsedTime = System.nanoTime() - startTime;
-        System.out.println("The time taken for Insertion sort: " + (double)(elapsedTime/1000000000) + " Seconds");
+        double elapsedTime = (System.nanoTime() - startTime)/1000000000;
+        System.out.println("The time taken for Insertion sort: " + elapsedTime + " Seconds");
+        loggingData.timeLog(elapsedTime);
 
     }
 }

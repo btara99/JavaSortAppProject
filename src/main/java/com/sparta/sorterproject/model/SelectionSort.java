@@ -2,11 +2,13 @@ package com.sparta.sorterproject.model;
 
 import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.controller.SortManager;
+import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
 public class SelectionSort implements SortManager {
 
+    LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
 
     public static String selectionSort(int[] arr) {

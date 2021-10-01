@@ -47,7 +47,7 @@ public class DisplayManager{
         int arrayLength = Integer.parseInt(scanner.next());
         int[] arrayBefore = arrayGen.arrayGen(arrayLength);
         System.out.println("The array before sorting: " + Arrays.toString(arrayBefore));
-        loggingData.exceptionLog(Arrays.toString(arrayBefore));
+        loggingData.arrayLog(Arrays.toString(arrayBefore));
 
         return arrayBefore;
     }
