@@ -14,3 +14,11 @@
 [WARN] 2021-10-01 15:58:04,932 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: For input string: "hh"
 [WARN] 2021-10-01 15:59:30,760 Java sorter app logger arrayLog user created an array [808, 49, 512, 14, 902]
 [WARN] 2021-10-01 15:59:30,767 Java sorter app logger timeLog time taken for sort 1.2569863 seconds
+[WARN] 2021-10-01 16:08:19,507 Java sorter app logger arrayLog user created an array [186, 955, 756, 111, 253]
+[WARN] 2021-10-01 16:08:19,514 Java sorter app logger timeLog time taken for sort 1.6963737 seconds
+[WARN] 2021-10-01 16:08:44,329 Java sorter app logger arrayLog user created an array [306, 508, 480, 341, 9]
+[WARN] 2021-10-01 16:08:44,336 Java sorter app logger timeLog time taken for sort 0.9514859 seconds
+[WARN] 2021-10-01 16:12:02,983 Java sorter app logger arrayLog user created an array [654, 882, 970, 694, 986]
+[WARN] 2021-10-01 16:12:02,990 Java sorter app logger timeLog time taken for sort 1.1531264 seconds
+[WARN] 2021-10-01 16:12:21,856 Java sorter app logger arrayLog user created an array [539, 399, 876, 722, 658, 41]
+[WARN] 2021-10-01 16:12:21,863 Java sorter app logger timeLog time taken for sort 1.5397245 seconds

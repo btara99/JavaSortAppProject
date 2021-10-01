@@ -26,7 +26,6 @@ public class BubbleSort implements SortManager {
 
     @Override
     public void displaySortedArr() {
-
         //DISPLAY AND LOG THE SORTED ARRAY
         double startTime = System.nanoTime();
         System.out.println("The sorted array using Bubble sort: " + bubbleSort(displayData.displayArray()));
