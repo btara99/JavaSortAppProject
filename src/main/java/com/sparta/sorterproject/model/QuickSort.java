@@ -13,18 +13,18 @@ public class QuickSort implements SortManager {
     private int[] numbers;
     private int number;
 
-    public String sort(int[] arr) {
+    public String quickSort(int[] arr) {
         // check for empty or null array
         if (arr ==null || arr.length==0){
             return null;
         }
         this.numbers = arr;
         number = arr.length;
-        quicksort(0, number - 1);
+        quickSortNext(0, number - 1);
         return Arrays.toString(arr);
     }
 
-    private void quicksort(int low, int high) {
+    private void quickSortNext(int low, int high) {
         int i = low, j = high;
         // Get the pivot element from the middle of the list
         int pivot = numbers[low + (high-low)/2];
@@ -45,9 +45,9 @@ public class QuickSort implements SortManager {
         }
         // Recursion
         if (low < j)
-            quicksort(low, j);
+            quickSortNext(low, j);
         if (i < high)
-            quicksort(i, high);
+            quickSortNext(i, high);
     }
 
     private void exchange(int i, int j) {
@@ -59,7 +59,7 @@ public class QuickSort implements SortManager {
 
     public void displaySortedArr() {
         double startTime = System.nanoTime();
-        System.out.println("The sorted array using Quick sort: " + sort(DisplayManager.displayArray()));
+        System.out.println("The sorted array using Quick sort: " + quickSort(DisplayManager.displayArray()));
         double elapsedTime = System.nanoTime() - startTime;
         System.out.println("The time taken for Quick sort: " + (elapsedTime/1000000000) + " Seconds");
     }
