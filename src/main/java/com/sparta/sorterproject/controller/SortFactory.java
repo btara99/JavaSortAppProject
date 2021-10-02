@@ -24,7 +24,6 @@ public class SortFactory {
         }
         else if(typeSort == 5){
             return new TreeSort();
-
         }
         return null;
     }

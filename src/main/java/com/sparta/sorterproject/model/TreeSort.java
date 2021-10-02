@@ -4,8 +4,6 @@ import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.controller.SortManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 
-import java.util.ArrayList;
-
 
 public class TreeSort implements SortManager{
     LoggingManager loggingData = new LoggingManager();
@@ -58,8 +56,6 @@ public class TreeSort implements SortManager{
                 inOrder(node.right);
             }
         }
-
-
 
     }
     @Override
