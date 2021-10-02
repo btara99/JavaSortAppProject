@@ -27,6 +27,9 @@ public class DisplayManager{
                     "\t| Type: 3 for Insertion sort                 |\n" +
                     "\t| Type: 4 for Selection sort                 |\n" +
                     "\t| Type: 5 for Binary Tree based sort         |\n" +
+                    "\t| Type: 6 for Collection sort                |\n" +
+                    "\t| Type: 7 for Array sort                     |\n" +
+                    "\t| Type: 8 for Parallel array sort            |\n" +
                     "\t**********************************************\n" ;
 
 

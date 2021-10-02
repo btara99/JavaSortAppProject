@@ -25,6 +25,15 @@ public class SortFactory {
         else if(typeSort == 5){
             return new TreeSort();
         }
+        else if(typeSort == 6){
+            return new CollectionSort();
+        }
+        else if(typeSort == 7){
+            return new ArraySort();
+        }
+        else if(typeSort == 8){
+            return new ParralelArraySort();
+        }
         return null;
     }
 }

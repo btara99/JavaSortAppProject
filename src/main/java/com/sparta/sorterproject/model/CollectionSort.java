@@ -4,6 +4,7 @@ import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.controller.SortManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -13,9 +14,12 @@ public class CollectionSort implements SortManager {
     DisplayManager displayData = new DisplayManager();
 
     public String collectionSort(int [] arr){
-        List<Integer> arrlist = Arrays.stream(arr).boxed().toList();
+        ArrayList<Integer> arrlist = new ArrayList<>();
+        for(int i:arr){
+            arrlist.add(i);
+        }
         Collections.sort(arrlist);
-        return arrlist.toString();
+        return String.valueOf(arrlist);
     }
 
     @Override

@@ -58,6 +58,21 @@ public class DriverClass {
                         TreeSortDisplay.displaySortedArr();
                         status=false;
                         break;
+                    case 6:
+                        SortManager CollectionSortDisplay = sortFactory.getSort(6);
+                        CollectionSortDisplay.displaySortedArr();
+                        status=false;
+                        break;
+                    case 7:
+                        SortManager ArraySortDisplay = sortFactory.getSort(7);
+                        ArraySortDisplay.displaySortedArr();
+                        status=false;
+                        break;
+                    case 8:
+                        SortManager ParralelArraySortDisplay = sortFactory.getSort(8);
+                        ParralelArraySortDisplay.displaySortedArr();
+                        status=false;
+                        break;
 
                     default:
                         System.err.println("Incorrect number in range please select a number between 0-5");

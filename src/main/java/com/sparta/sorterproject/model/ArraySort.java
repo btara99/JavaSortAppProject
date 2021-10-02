@@ -12,7 +12,7 @@ public class ArraySort implements SortManager {
 
     public String arraysSort(int [] arr){
         Arrays.sort(arr);
-        return arr.toString();
+        return Arrays.toString(arr);
     }
 
     @Override
