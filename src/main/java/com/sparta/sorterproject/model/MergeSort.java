@@ -58,4 +58,5 @@ public class MergeSort implements SortManager {
         double elapsedTime = System.nanoTime() - startTime;
         System.out.println("The time taken for Merge sort: " + (double)(elapsedTime/1000000000) + " Seconds");
     }
+
 }
