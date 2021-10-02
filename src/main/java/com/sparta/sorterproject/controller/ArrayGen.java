@@ -4,8 +4,6 @@ import com.sparta.sorterproject.view.DriverClass;
 
 import java.util.Random;
 
-
-
 public class ArrayGen extends DriverClass {
 
     public int[] arrayGen(int arrayLength){
@@ -16,15 +14,4 @@ public class ArrayGen extends DriverClass {
         }
         return arr;
     }
-
-    //Clones array to be used again
-//    public void setCopyArr(int[] arr) {
-//        for (Integer num : arr) {
-//            arrCopy.add(num);
-//        }
-//    }
-//
-//    public ArrayList<Integer> getArrCopy() {
-//        return arrCopy;
-//    }
 }

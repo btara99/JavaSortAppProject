@@ -2,7 +2,10 @@ package com.sparta.sorterproject.controller;
 
 import com.sparta.sorterproject.model.*;
 
+
 public class SortFactory {
+    DisplayManager displayData = new DisplayManager();
+
     public SortManager getSort(int typeSort) {
         if (typeSort == 0) {
             return new BubbleSort();

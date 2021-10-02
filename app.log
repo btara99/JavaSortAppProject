@@ -31,3 +31,9 @@
 [WARN] 2021-10-02 15:46:05,387 Java sorter app logger arrayLog user created an array [954, 590, 602, 846, 886, 279]
 [WARN] 2021-10-02 15:46:05,394 Java sorter app logger timeLog time taken for sort 1.1012847 seconds
 [WARN] 2021-10-02 15:55:45,344 Java sorter app logger arrayLog user created an array [589, 730, 680, 877, 285, 570]
+[WARN] 2021-10-02 16:58:29,074 Java sorter app logger arrayLog user created an array [923, 646, 547, 741, 569, 595, 740]
+[WARN] 2021-10-02 16:58:29,081 Java sorter app logger timeLog time taken for sort 1.4671142 seconds
+[WARN] 2021-10-02 17:13:14,258 Java sorter app logger arrayLog user created an array [177, 311, 540, 908, 162, 131, 525, 452]
+[WARN] 2021-10-02 17:13:14,265 Java sorter app logger timeLog time taken for sort 1.2119104 seconds
+[WARN] 2021-10-02 17:16:45,510 Java sorter app logger arrayLog user created an array [403, 73, 206, 511, 777]
+[WARN] 2021-10-02 17:16:45,517 Java sorter app logger timeLog time taken for sort 1.5121133 seconds

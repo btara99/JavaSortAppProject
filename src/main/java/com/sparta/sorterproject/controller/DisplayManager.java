@@ -39,8 +39,6 @@ public class DisplayManager{
     }
 
 
-
-
     public static int[] displayArray(){
         ArrayGen arrayGen = new ArrayGen();
         LoggingManager loggingData = new LoggingManager();
@@ -49,16 +47,10 @@ public class DisplayManager{
         int arrayLength = Integer.parseInt(scanner.next());
         int[] arrayBefore = arrayGen.arrayGen(arrayLength);
         System.out.println("The array before sorting: " + Arrays.toString(arrayBefore));
-        arrClone(arrayBefore);
         loggingData.arrayLog(Arrays.toString(arrayBefore));
 
         return arrayBefore;
     }
-
-    public static int[] arrClone(int[] arr){
-        int [] arrCopy = arr.clone();
-        return arrCopy;
-    }
-
+    
 
 }
