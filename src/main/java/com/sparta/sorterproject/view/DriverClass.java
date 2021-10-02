@@ -1,5 +1,6 @@
 package com.sparta.sorterproject.view;
 
+import com.sparta.sorterproject.controller.ArrayGen;
 import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 import com.sparta.sorterproject.controller.SortFactory;
@@ -14,6 +15,7 @@ public class DriverClass {
         SortFactory sortFactory =  new SortFactory();
         DisplayManager displayData = new DisplayManager();
         LoggingManager loggingData = new LoggingManager();
+        ArrayGen arrayGen = new ArrayGen();
         boolean status = true;
 
         while(status) {
@@ -61,6 +63,7 @@ public class DriverClass {
                 loggingData.exceptionLog(n.getMessage());
 
             }
+
         }
 
 

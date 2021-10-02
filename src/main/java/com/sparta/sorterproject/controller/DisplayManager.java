@@ -2,13 +2,13 @@ package com.sparta.sorterproject.controller;
 
 import com.sparta.sorterproject.logging.LoggingManager;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.System.in;
 
 public class DisplayManager{
-
 
     private static final String titleMain = // displays the int text for user
             "\nSORTING PROJECT \n"+
@@ -39,6 +39,8 @@ public class DisplayManager{
     }
 
 
+
+
     public static int[] displayArray(){
         ArrayGen arrayGen = new ArrayGen();
         LoggingManager loggingData = new LoggingManager();
@@ -47,9 +49,15 @@ public class DisplayManager{
         int arrayLength = Integer.parseInt(scanner.next());
         int[] arrayBefore = arrayGen.arrayGen(arrayLength);
         System.out.println("The array before sorting: " + Arrays.toString(arrayBefore));
+        arrClone(arrayBefore);
         loggingData.arrayLog(Arrays.toString(arrayBefore));
 
         return arrayBefore;
+    }
+
+    public static int[] arrClone(int[] arr){
+        int [] arrCopy = arr.clone();
+        return arrCopy;
     }
 
 

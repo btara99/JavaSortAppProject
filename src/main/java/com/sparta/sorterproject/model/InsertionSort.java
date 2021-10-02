@@ -34,4 +34,5 @@ public class InsertionSort implements SortManager {
         loggingData.timeLog(elapsedTime);
 
     }
+
 }
