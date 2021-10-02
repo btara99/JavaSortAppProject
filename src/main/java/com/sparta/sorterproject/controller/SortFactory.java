@@ -22,6 +22,10 @@ public class SortFactory {
         else if(typeSort == 4){
             return new SelectionSort();
         }
+        else if(typeSort == 5){
+            return new TreeSort();
+
+        }
         return null;
     }
 }
