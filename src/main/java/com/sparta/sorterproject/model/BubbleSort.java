@@ -6,9 +6,11 @@ import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
+// implementation of bubble sort
 public class BubbleSort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
+
     public static String bubbleSort(int[] arr){
         int temp = 0;
         int n = arr.length;
@@ -23,7 +25,7 @@ public class BubbleSort implements SortManager {
         }
         return Arrays.toString(arr);
     }
-
+    //displays the sorted array and time
     @Override
     public void displaySortedArr() {
         //DISPLAY AND LOG THE SORTED ARRAY

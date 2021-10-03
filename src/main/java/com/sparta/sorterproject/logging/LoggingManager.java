@@ -3,6 +3,8 @@ package com.sparta.sorterproject.logging;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+//Used for logging key points in the app sorter
+
 public class LoggingManager {
     private static Logger logger = Logger.getLogger("Java sorter app logger");
 

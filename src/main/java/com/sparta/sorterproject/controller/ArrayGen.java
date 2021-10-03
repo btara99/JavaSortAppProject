@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class ArrayGen extends DriverClass {
 
+    //method to generate a random int array
     public int[] arrayGen(int arrayLength){
         Random rand = new Random(); // creating Random object
         int[] arr = new int[arrayLength];

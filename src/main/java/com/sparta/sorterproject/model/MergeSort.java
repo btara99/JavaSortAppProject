@@ -6,6 +6,8 @@ import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
+//implementation of merge sort
+
 public class MergeSort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
@@ -50,7 +52,7 @@ public class MergeSort implements SortManager {
         }
     }
 
-
+    //displays the sorted array and time
     @Override
     public void displaySortedArr() {
         double startTime = System.nanoTime();

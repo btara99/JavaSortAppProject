@@ -6,23 +6,25 @@ import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
-public class ParralelArraySort implements SortManager {
+//using the java libary Arrays to use parallel array sort
+
+public class ParallelArraySort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
 
-    public String parralelArraysSort(int [] arr){
+    public String parallelArraysSort(int [] arr){
         Arrays.parallelSort(arr);
         return Arrays.toString(arr);
     }
 
-
+    //displays the sorted array and time
     @Override
     public void displaySortedArr() {
         //DISPLAY AND LOG THE SORTED ARRAY
         double startTime = System.nanoTime();
-        System.out.println("The sorted array using Parrallel Array sort: " + parralelArraysSort(displayData.displayArray()));
+        System.out.println("The sorted array using Parallel Array sort: " + parallelArraysSort(displayData.displayArray()));
         double elapsedTime = (System.nanoTime() - startTime)/1000000000;
-        System.out.println("The time taken for Parrallel Array sort: " + elapsedTime + " Seconds");
+        System.out.println("The time taken for Parallel Array sort: " + elapsedTime + " Seconds");
         loggingData.timeLog(elapsedTime);
     }
 }

@@ -6,6 +6,7 @@ import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
+//using the java libary Arrays to sort an array
 public class ArraySort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
@@ -14,7 +15,7 @@ public class ArraySort implements SortManager {
         Arrays.sort(arr);
         return Arrays.toString(arr);
     }
-
+    //displays the sorted array and time
     @Override
     public void displaySortedArr() {
         //DISPLAY AND LOG THE SORTED ARRAY

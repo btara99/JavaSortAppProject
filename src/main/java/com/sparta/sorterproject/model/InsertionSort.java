@@ -6,6 +6,8 @@ import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.Arrays;
 
+//implementation of Insertion sort
+
 public class InsertionSort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
     DisplayManager displayData = new DisplayManager();
@@ -24,7 +26,7 @@ public class InsertionSort implements SortManager {
         }
         return Arrays.toString(arr);
     }
-
+    //displays the sorted array and time
     public void displaySortedArr() {
         //DISPLAY SORTED ARRAY
         double startTime = System.nanoTime();

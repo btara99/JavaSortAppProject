@@ -2,6 +2,7 @@ package com.sparta.sorterproject.controller;
 
 import com.sparta.sorterproject.model.*;
 
+//sort factory method implementation
 
 public class SortFactory {
     DisplayManager displayData = new DisplayManager();
@@ -32,7 +33,7 @@ public class SortFactory {
             return new ArraySort();
         }
         else if(typeSort == 8){
-            return new ParralelArraySort();
+            return new ParallelArraySort();
         }
         return null;
     }

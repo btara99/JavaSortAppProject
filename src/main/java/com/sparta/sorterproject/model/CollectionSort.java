@@ -5,9 +5,10 @@ import com.sparta.sorterproject.controller.SortManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+
+
+//using the java libary Collections to sort an array
 
 public class CollectionSort implements SortManager {
     LoggingManager loggingData = new LoggingManager();
@@ -22,6 +23,7 @@ public class CollectionSort implements SortManager {
         return String.valueOf(arrlist);
     }
 
+    //displays the sorted array and time
     @Override
     public void displaySortedArr() {
         //DISPLAY AND LOG THE SORTED ARRAY

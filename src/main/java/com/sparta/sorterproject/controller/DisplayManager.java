@@ -2,7 +2,6 @@ package com.sparta.sorterproject.controller;
 
 import com.sparta.sorterproject.logging.LoggingManager;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,7 +9,9 @@ import static java.lang.System.in;
 
 public class DisplayManager{
 
-    private static final String titleMain = // displays the int text for user
+    //Class to display what will be shown on screen for the user mainly for UI
+
+    private static final String sizeTitle = // displays the int text for user
             "\nSORTING PROJECT \n"+
                     "\t************************************************\n" +
                     "\t| Please pick an int number for the array size |\n" +
@@ -33,16 +34,16 @@ public class DisplayManager{
                     "\t**********************************************\n" ;
 
 
-    public static String displayTitle(){
-        return titleMain;
+    public static String displayTitle(){ //getter for the size title
+        return sizeTitle;
     }
 
-    public String displaySorts(){
+    public String displaySorts(){  //getter for displaying the sorts
         return displaySorts;
     }
 
 
-    public static int[] displayArray(){
+    public static int[] displayArray(){  // displays the array by calling the array gen method
         ArrayGen arrayGen = new ArrayGen();
         LoggingManager loggingData = new LoggingManager();
         Scanner scanner = new Scanner(in);
