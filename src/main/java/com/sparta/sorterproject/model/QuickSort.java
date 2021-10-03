@@ -63,6 +63,16 @@ public class QuickSort implements SortManager {
         double elapsedTime = System.nanoTime() - startTime;
         System.out.println("The time taken for Quick sort: " + (elapsedTime/1000000000) + " Seconds");
     }
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        double newStartTime = System.nanoTime();
+        System.out.println("The sorted array using Quick sort comparison: " + quickSort(arr));
+        double newElapsedTime = (System.nanoTime() - newStartTime)/1000000000;
+        System.out.println("The time taken for Quick sort comparison: " + (double)(newElapsedTime/1000000000) + " Seconds");
+
+    }
 
 
 }

@@ -5,6 +5,7 @@ import com.sparta.sorterproject.controller.SortManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 
@@ -33,5 +34,15 @@ public class CollectionSort implements SortManager {
         System.out.println("The time taken for Collections sort: " + elapsedTime + " Seconds");
         loggingData.timeLog(elapsedTime);
 
+    }
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        double newStartTime = System.nanoTime();
+        System.out.println("The sorted array using collection sort comparison: " + collectionSort(arr));
+        double newElapsedTime = (System.nanoTime() - newStartTime)/1000000000;
+        System.out.println("The time taken for collection sort comparison: " + newElapsedTime + " Seconds");
+        loggingData.timeLog(newElapsedTime);
     }
 }

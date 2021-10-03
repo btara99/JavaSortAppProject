@@ -4,6 +4,8 @@ package com.sparta.sorterproject.controller;
 
 public interface SortManager {
     void displaySortedArr();
+
+    void comparisonArr(int[] arr);
 }
 
 

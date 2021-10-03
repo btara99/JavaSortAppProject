@@ -60,5 +60,14 @@ public class MergeSort implements SortManager {
         double elapsedTime = System.nanoTime() - startTime;
         System.out.println("The time taken for Merge sort: " + (double)(elapsedTime/1000000000) + " Seconds");
     }
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        double newStartTime = System.nanoTime();
+        System.out.println("The sorted array using Merge sort comparison: " + mergeSort(arr,1));
+        double newElapsedTime = (System.nanoTime() - newStartTime)/1000000000;
+        System.out.println("The time taken for Merge sort comparison: " + (double)(newElapsedTime/1000000000) + " Seconds");
+    }
 
 }

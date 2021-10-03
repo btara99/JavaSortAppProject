@@ -4,6 +4,8 @@ import com.sparta.sorterproject.controller.DisplayManager;
 import com.sparta.sorterproject.controller.SortManager;
 import com.sparta.sorterproject.logging.LoggingManager;
 
+import java.util.Arrays;
+
 
 public class TreeSort implements SortManager{
     LoggingManager loggingData = new LoggingManager();
@@ -74,7 +76,22 @@ public class TreeSort implements SortManager{
         loggingData.timeLog(elapsedTime);
 
     }
-
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        int [] dummyArr = {-1};
+        double startTime = System.nanoTime();
+        Tree tree = new Tree(dummyArr[0]);
+        for (int num : arr) {
+            tree.insert(tree.node, num);
+        }
+        System.out.print("The sorted array using Tree sort comparison: [ ");
+        tree.inOrder(tree.node);
+        double elapsedTime = (System.nanoTime() - startTime) / 1000000000;
+        System.out.print("]"+"\n" + "The time taken for Tree sort comparison: " + elapsedTime + " Seconds");
+        loggingData.timeLog(elapsedTime);
+    }
 
 
 }

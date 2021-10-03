@@ -37,5 +37,16 @@ public class SelectionSort implements SortManager {
         System.out.println("The time taken for Selection sort: " + (double) (elapsedTime / 1000000000) + " Seconds");
     }
 
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        double newStartTime = System.nanoTime();
+        System.out.println("The sorted array using Selection sort for comparison: " + selectionSort(arr));
+        double newElapsedTime = (System.nanoTime() - newStartTime)/1000000000;
+        System.out.println("The time taken for Selection sort comparison: " + newElapsedTime + " Seconds");
+        loggingData.timeLog(newElapsedTime);
+    }
+
 
 }

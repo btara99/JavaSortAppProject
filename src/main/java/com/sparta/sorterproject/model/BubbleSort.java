@@ -36,6 +36,16 @@ public class BubbleSort implements SortManager {
         loggingData.timeLog(elapsedTime);
 
     }
+    //displays the sorted array and time for comparison
+    @Override
+    public void comparisonArr(int[] arr) {
+        System.out.println("The array being used again is:  " + Arrays.toString(arr));
+        double newStartTime = System.nanoTime();
+        System.out.println("The sorted array using Bubble sort for comparison: " + bubbleSort(arr));
+        double newElapsedTime = (System.nanoTime() - newStartTime)/1000000000;
+        System.out.println("The time taken for Bubble sort comparison: " + newElapsedTime + " Seconds");
+        loggingData.timeLog(newElapsedTime);
+    }
 
 
 }
