@@ -9,15 +9,15 @@ public class LoggingManager {
     private static Logger logger = Logger.getLogger("Java sorter app logger");
 
     public static void exceptionLog(String n){
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("log4j.properties");  // log for exceptions
         logger.warn(" User did not enter an int: USER INPUT: " + n);
     }
     public static void arrayLog(String arr){
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("log4j.properties"); // log when arrays are made
         logger.warn("user created an array " + arr);
     }
     public static void timeLog(double time){
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("log4j.properties");  // logs the time of the sort
         logger.warn("time taken for sort " + time + " seconds");
     }
 

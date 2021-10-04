@@ -208,3 +208,13 @@
 [WARN] 2021-10-04 13:22:24,266 Java sorter app logger arrayLog user created an array [90, 784, 31, 521, 974]
 [WARN] 2021-10-04 13:22:24,274 Java sorter app logger timeLog time taken for sort 1.2127101 seconds
 [WARN] 2021-10-04 13:22:25,824 Java sorter app logger timeLog time taken for sort 2.666E-4 seconds
+[WARN] 2021-10-04 18:20:29,505 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: -8
+[WARN] 2021-10-04 18:20:33,016 Java sorter app logger arrayLog user created an array [104, 325, 789, 287, 69]
+[WARN] 2021-10-04 18:20:33,022 Java sorter app logger timeLog time taken for sort 0.9012831 seconds
+[WARN] 2021-10-04 18:20:35,383 Java sorter app logger timeLog time taken for sort 0.0031082 seconds
+[WARN] 2021-10-04 18:54:39,203 Java sorter app logger arrayLog user created an array [632, 801, 203, 815, 146]
+[WARN] 2021-10-04 18:54:39,211 Java sorter app logger timeLog time taken for sort 0.7966413 seconds
+[WARN] 2021-10-04 18:54:40,076 Java sorter app logger timeLog time taken for sort 0.0028543 seconds
+[WARN] 2021-10-04 18:54:48,096 Java sorter app logger arrayLog user created an array [797, 741, 700]
+[WARN] 2021-10-04 18:54:56,607 Java sorter app logger arrayLog user created an array [436, 378, 806, 179, 874]
+[WARN] 2021-10-04 18:54:57,657 Java sorter app logger timeLog time taken for sort 5.13E-5 seconds

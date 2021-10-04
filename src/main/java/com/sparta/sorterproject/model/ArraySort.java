@@ -12,7 +12,7 @@ public class ArraySort implements SortManager {
     DisplayManager displayData = new DisplayManager();
 
     public String arraysSort(int [] arr){
-        Arrays.sort(arr);
+        Arrays.sort(arr);  // calling array sort from libary
         return Arrays.toString(arr);
     }
     //displays the sorted array and time

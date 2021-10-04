@@ -76,13 +76,16 @@ public class DriverClass {
 
 
                     default:
-                        System.err.println("Incorrect number in range please select a number between 0-5");
+                        System.err.println("Incorrect number in range please select a number between 0-8");
                 }
 
             } catch (NumberFormatException n) {
                 System.err.println("Incorrect input " + n.getMessage());
                 loggingData.exceptionLog(n.getMessage());
 
+            }catch(NegativeArraySizeException v){
+                System.err.println("Please input a positive int " + v.getMessage());
+                loggingData.exceptionLog(v.getMessage());
             }
 
         }

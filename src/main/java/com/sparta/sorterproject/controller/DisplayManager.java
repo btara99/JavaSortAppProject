@@ -67,8 +67,6 @@ public class DisplayManager{
     }
 
 
-
-
     public static int[] displayArray(){  // displays the array by calling the array gen method
         ArrayGen arrayGen = new ArrayGen();
         LoggingManager loggingData = new LoggingManager();
