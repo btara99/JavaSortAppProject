@@ -2,15 +2,12 @@ package com.sparta.sorterproject.view;
 
 import com.sparta.sorterproject.controller.*;
 import com.sparta.sorterproject.logging.LoggingManager;
-import com.sparta.sorterproject.model.BubbleSort;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import static java.lang.System.*;
 
 public class DriverClass {
-    
-    private static int[] copyArr;
+    private static int[] copyArr; // creates a variable to store the copy of the array
 
     public static void main(String[] args) {
         SortFactory sortFactory = new SortFactory();
@@ -89,7 +86,7 @@ public class DriverClass {
             }
 
         }
-
+        //displays the comparison menu
         comparisonManager.comparisonChoice(newStatus,copyArr);
 
     }

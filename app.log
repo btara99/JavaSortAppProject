@@ -188,3 +188,23 @@
 [WARN] 2021-10-03 23:16:40,682 Java sorter app logger timeLog time taken for sort 1.3108824 seconds
 [WARN] 2021-10-03 23:16:44,842 Java sorter app logger exceptionLog  User did not enter an int: USER INPUT: For input string: "hh"
 [WARN] 2021-10-03 23:16:49,183 Java sorter app logger timeLog time taken for sort 4.96E-5 seconds
+[WARN] 2021-10-03 23:19:28,891 Java sorter app logger arrayLog user created an array [394, 764, 811, 482, 90, 719, 926, 312, 405]
+[WARN] 2021-10-03 23:19:34,205 Java sorter app logger timeLog time taken for sort 7.66E-5 seconds
+[WARN] 2021-10-03 23:19:41,285 Java sorter app logger timeLog time taken for sort 0.0030751 seconds
+[WARN] 2021-10-03 23:20:58,204 Java sorter app logger arrayLog user created an array [403, 828, 546, 528, 198]
+[WARN] 2021-10-03 23:20:58,211 Java sorter app logger timeLog time taken for sort 0.7298201 seconds
+[WARN] 2021-10-03 23:20:59,183 Java sorter app logger timeLog time taken for sort 0.0029507 seconds
+[WARN] 2021-10-04 09:31:01,439 Java sorter app logger arrayLog user created an array [705, 865, 930, 318, 423, 658, 46, 785, 738]
+[WARN] 2021-10-04 09:31:01,448 Java sorter app logger timeLog time taken for sort 1.7004532 seconds
+[WARN] 2021-10-04 09:31:14,251 Java sorter app logger arrayLog user created an array [630, 819, 643, 723, 152]
+[WARN] 2021-10-04 09:31:14,258 Java sorter app logger timeLog time taken for sort 0.7967836 seconds
+[WARN] 2021-10-04 09:31:17,232 Java sorter app logger timeLog time taken for sort 2.16E-4 seconds
+[WARN] 2021-10-04 09:57:32,210 Java sorter app logger arrayLog user created an array [320, 286, 428, 968, 694, 588, 122, 310]
+[WARN] 2021-10-04 09:57:32,218 Java sorter app logger timeLog time taken for sort 1.6179818 seconds
+[WARN] 2021-10-04 09:57:33,657 Java sorter app logger timeLog time taken for sort 8.28E-5 seconds
+[WARN] 2021-10-04 09:57:49,617 Java sorter app logger arrayLog user created an array [796, 494, 336, 444, 719, 523, 264, 468]
+[WARN] 2021-10-04 09:57:49,624 Java sorter app logger timeLog time taken for sort 2.3159904 seconds
+[WARN] 2021-10-04 09:57:52,091 Java sorter app logger timeLog time taken for sort 0.0033228 seconds
+[WARN] 2021-10-04 13:22:24,266 Java sorter app logger arrayLog user created an array [90, 784, 31, 521, 974]
+[WARN] 2021-10-04 13:22:24,274 Java sorter app logger timeLog time taken for sort 1.2127101 seconds
+[WARN] 2021-10-04 13:22:25,824 Java sorter app logger timeLog time taken for sort 2.666E-4 seconds

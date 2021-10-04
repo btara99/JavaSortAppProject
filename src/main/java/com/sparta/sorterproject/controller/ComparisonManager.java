@@ -9,6 +9,7 @@ import static java.lang.System.in;
 
 
 public class ComparisonManager extends DriverClass {
+    //class is used for the user to compare the sorts
 
     public void comparisonChoice(boolean newStatus, int[] copyArr){
         SortFactory sortFactory = new SortFactory();
